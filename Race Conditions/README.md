@@ -33,7 +33,7 @@ Firstly, we check the C file contents for the potential race condition flaws and
 
 ![Contents of the C file](./img/7.PNG)
 
-We can bypass this by creating and deleting a dummy file continuesly while creating a symlink between our dummy file and the flag file.
+We can bypass this by creating and deleting a dummy file continuously while creating a symlink between our dummy file and the flag file.
 
 ![Bash Script for the above purpose](./img/8.PNG)
 
